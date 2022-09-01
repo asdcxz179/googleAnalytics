@@ -5,10 +5,10 @@ https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/repo
 ### 僅提供一種接口，依據不同參數獲得不同資料 (透過Google Analytics後台能看到的報表API也只能取得那些)
 ### 官方文檔：https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet#ReportRequest.FIELDS.date_ranges
 ### Google Analytics 分為四種報表數據
-1. 總結報表
-2. 數據透視報表
-3. 同类群组報表
-4. 生命周期价值
+1. 總結報表 (查看指標的統計)
+2. 數據透視報表 (查看指標的維度統計)
+3. 同类群组報表 (beta階段，相同身分的階段群組)
+4. 生命周期价值 (beta階段，這段時間頁面的廣告收益)
 
 ### 主要透過 metrics (指標)、 dimensions(維度)這兩個參數控制
 ### 參數類型可以來此網站查閱：https://ga-dev-tools.web.app/dimensions-metrics-explorer/

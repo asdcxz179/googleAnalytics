@@ -9,6 +9,44 @@ https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/repo
 2. 數據透視報表
 3. 同类群组報表
 4. 生命周期价值
+
+### 共通參數
+```json
+	{
+		viewId: 123455//視圖ＩＤ,
+		dateRanges: [
+			{
+				startDate: "2022-08-01",
+				endDate: "2022-08-07"
+			}
+		],
+		samplingLevel: "DEFAULT"//樣本大小,
+		dimensions: [
+			{
+				name: "ga:browser",
+				histogramBuckets: [
+					"<50"
+				],
+			}
+		],
+		dimensionFilterClauses: [
+			{
+				operator: "OR",
+				filters: [
+					{
+					}
+				],
+			}
+		],
+		metrics: [
+			{
+				expression: "ga:users",
+				alias: string,
+				formattingType: enum(MetricType),
+			}
+		]
+	}
+```
 ###
 ```json
 	{

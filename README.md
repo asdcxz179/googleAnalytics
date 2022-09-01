@@ -11,6 +11,8 @@ https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/repo
 4. 生命周期价值 (beta階段，這段時間頁面的廣告收益)
 
 ### 主要透過 metrics (指標)、 dimensions(維度)這兩個參數控制
+1. metrics (指標)：用來統計數字，比如瀏覽次數、頁面廣告量等
+2. dimensions(維度)：用來分組跟SQL的Group相似
 ### 參數類型可以來此網站查閱：https://ga-dev-tools.web.app/dimensions-metrics-explorer/
 
 ### 共通參數

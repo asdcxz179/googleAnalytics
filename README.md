@@ -17,19 +17,19 @@ https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/repo
 		"dateRanges": [
 			{
 				"startDate": "2022-08-01",
-				endDate: "2022-08-07"
+				"endDate": "2022-08-07"
 			}
 		],
-		samplingLevel: "DEFAULT"//樣本大小,
-		dimensions: [
+		"samplingLevel": "DEFAULT"//樣本大小,
+		"dimensions": [
 			{
-				name: "ga:browser",
-				histogramBuckets: [
+				"name": "ga:browser",
+				"histogramBuckets": [
 					"<50"
 				],
 			}
 		],
-dimensionFilterClauses: [
+		"dimensionFilterClauses": [
 {
 operator: "OR",
 filters: [

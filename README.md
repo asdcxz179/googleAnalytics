@@ -11,6 +11,7 @@ https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/repo
 4. 生命周期价值
 
 ### 主要透過 metrics (指標)、 dimensions(維度)這兩個參數控制
+### 參數類型可以來此網站查閱：https://ga-dev-tools.web.app/dimensions-metrics-explorer/
 
 ### 共通參數
 ```json

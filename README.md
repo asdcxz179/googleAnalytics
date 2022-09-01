@@ -29,23 +29,23 @@ https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/repo
 				],
 			}
 		],
-		dimensionFilterClauses: [
-			{
-				operator: "OR",
-				filters: [
-					{
-					}
-				],
-			}
-		],
-		metrics: [
-			{
-				expression: "ga:users",
-				alias: string,
-				formattingType: enum(MetricType),
-			}
-		]
+dimensionFilterClauses: [
+{
+operator: "OR",
+filters: [
+	{
 	}
+],
+}
+],
+metrics: [
+{
+expression: "ga:users",
+alias: string,
+formattingType: enum(MetricType),
+}
+]
+}
 ```
 ###
 ```json

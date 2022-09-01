@@ -2,7 +2,7 @@
 
 https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet
 
-### 僅提供一種接口，依據不同參數獲得不同資料
+### 僅提供一種接口，依據不同參數獲得不同資料 (詳細的API參數，參數太多就不全部解釋)
 ### 官方文檔：https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/reports/batchGet#ReportRequest.FIELDS.date_ranges
 ```json
 	{

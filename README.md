@@ -13,10 +13,10 @@ https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/repo
 ### 共通參數
 ```json
 	{
-		viewId: 123455//視圖ＩＤ,
-		dateRanges: [
+		"viewId": 123455//視圖ＩＤ,
+		"dateRanges": [
 			{
-				startDate: "2022-08-01",
+				"startDate": "2022-08-01",
 				endDate: "2022-08-07"
 			}
 		],

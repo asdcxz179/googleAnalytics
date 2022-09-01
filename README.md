@@ -15,7 +15,7 @@ https://developers.google.com/analytics/devguides/reporting/core/v4/rest/v4/repo
 2. dimensions(維度)：用來分組跟SQL的Group相似
 ### 參數類型可以來此網站查閱：https://ga-dev-tools.web.app/dimensions-metrics-explorer/
 
-### 共通參數
+### 請求共通參數
 ```json
 {
 	"viewId": 123455//視圖ＩＤ,
